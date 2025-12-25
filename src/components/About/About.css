@@ -1,0 +1,115 @@
+.about {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  background: white;
+  color: black;
+  padding: 80px 104px 81px 104px;
+  align-items: center;
+  gap: 40px;
+}
+
+.about__photo {
+  width: 464px;
+  height: 464px;
+  max-width: 100%;
+  border-radius: 50%;
+  background-image: url("/src/images/Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.about__message {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+}
+
+.about__title {
+  font-size: 32px;
+  text-align: left;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.about__me {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+}
+
+.about__more {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .about {
+    flex-direction: row;
+    padding: 40px;
+    align-items: flex-start;
+  }
+
+  .about__photo {
+    width: 272px;
+    height: 272px;
+    flex-shrink: 0;
+  }
+
+  .about__title {
+    font-size: 24px;
+  }
+
+  .about__me,
+  .about__more {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    text-align: left;
+  }
+
+  .about__photo {
+    width: 272px;
+    height: 272px;
+  }
+
+  .about__message {
+    width: 100%;
+  }
+
+  .about__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about__me,
+  .about__more {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .about__more {
+    padding-bottom: 30px;
+  }
+}

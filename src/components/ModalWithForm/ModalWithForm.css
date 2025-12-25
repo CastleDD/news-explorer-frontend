@@ -1,0 +1,155 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__title {
+  padding-bottom: 22px;
+  color: #000;
+  text-align: left;
+}
+
+.modal__close {
+  background-image: url("/src/images/close.png");
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background: no-repeat;
+}
+
+.modal__label {
+  padding-bottom: 9px;
+  color: #2f71e5;
+  text-align: left;
+}
+
+.modal__content {
+  background-color: #fff;
+  position: relative;
+  padding: 28px 28px 36px;
+
+  max-width: 430px;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal__input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid;
+  width: 358px;
+  padding-top: 9px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.modal__legend {
+  padding-bottom: 12px;
+}
+
+.modal__radio-buttons {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__radio-input {
+  accent-color: black;
+}
+
+.modal__label_type_radio {
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.modal__submit {
+  width: 100%;
+  margin-top: 24px;
+  padding: 20px 115px;
+  text-align: center;
+  font-size: 18px;
+
+  border-radius: 50px;
+  border: none;
+
+  color: #b6bcbf;
+  cursor: pointer;
+  align-self: center;
+}
+
+.modal__submit:hover {
+  opacity: 95%;
+}
+
+.modal__submit:disabled {
+  background-color: #e6e8eb;
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.modal__submit:not(:disabled) {
+  background-color: #2f71e5;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .modal__close {
+    display: none;
+  }
+
+  .modal__content {
+    padding: 16px 17px;
+    height: 93%;
+    top: 50px;
+  }
+  .modal__title {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+
+  .modal__input {
+    width: 100%;
+    color: black;
+    opacity: 20%;
+    font-size: 14px;
+  }
+  .modal__label {
+    padding: 18px 0 12px;
+    font-size: 12px;
+  }
+
+  .modal__submit {
+    height: 64px;
+    padding: 20px 79px;
+  }
+}

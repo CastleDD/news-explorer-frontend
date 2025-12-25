@@ -1,0 +1,17 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+  background-attachment: fixed;
+  margin: 0;
+  z-index: 2;
+}
+
+.app__content {
+  margin: 0 auto;
+}
