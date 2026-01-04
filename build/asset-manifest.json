@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/news-explorer-frontend/static/css/main.ea8c24cf.css",
+    "main.js": "/news-explorer-frontend/static/js/main.6508213c.js",
+    "static/media/backdrop.jpg": "/news-explorer-frontend/static/media/backdrop.57061c30d8a7247d4ebd.jpg",
+    "static/media/Bridge.jpg": "/news-explorer-frontend/static/media/Bridge.094fb3ddb14183f313a1.jpg",
+    "static/media/roboto-slab-700.woff": "/news-explorer-frontend/static/media/roboto-slab-700.7cb09bef6990e87c9e2b.woff",
+    "static/media/roboto-slab-400-regular.woff": "/news-explorer-frontend/static/media/roboto-slab-400-regular.b46b2661355d7b1e9e9e.woff",
+    "static/media/inter-500.woff": "/news-explorer-frontend/static/media/inter-500.f6376d37d92d3a818283.woff",
+    "static/media/inter-400-regular.woff": "/news-explorer-frontend/static/media/inter-400-regular.f60fc6e27a1216af5719.woff",
+    "static/media/roboto-900.woff": "/news-explorer-frontend/static/media/roboto-900.bac8362e7a6ea60b6983.woff",
+    "static/media/roboto-700.woff": "/news-explorer-frontend/static/media/roboto-700.2267169ee7270a22a963.woff",
+    "static/media/roboto-400-regular.woff": "/news-explorer-frontend/static/media/roboto-400-regular.49ae34d4cc6b98c00c69.woff",
+    "index.html": "/news-explorer-frontend/index.html",
+    "static/media/Group 13.svg": "/news-explorer-frontend/static/media/Group 13.7031597b3698bb0a4c60987b1a06e2b0.svg",
+    "static/media/Group 14.svg": "/news-explorer-frontend/static/media/Group 14.4ef44a1e19ae1e8d9ec035e8e2eaa828.svg",
+    "static/media/Group 12.svg": "/news-explorer-frontend/static/media/Group 12.a8b34fb45b19cb20990af3755232fd0d.svg",
+    "static/media/menuBlk.svg": "/news-explorer-frontend/static/media/menuBlk.f69aaff115ee8eb4b42a8c85bcc04819.svg",
+    "static/media/menuYt.svg": "/news-explorer-frontend/static/media/menuYt.e36517e53a511b70bfb85c3d252945cc.svg",
+    "main.ea8c24cf.css.map": "/news-explorer-frontend/static/css/main.ea8c24cf.css.map",
+    "main.6508213c.js.map": "/news-explorer-frontend/static/js/main.6508213c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8c24cf.css",
+    "static/js/main.6508213c.js"
+  ]
+}

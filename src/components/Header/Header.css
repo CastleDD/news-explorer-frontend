@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 0.5px white solid;
+  padding: 30px 40px;
+  height: 80px;
+  position: absolute;
+}
+
+.header__default {
+  position: relative;
+  color: black;
+  background-color: white;
+}
+
+.header__default .header__link,
+.header__default .header__title,
+.header__default .header__user,
+.header__default {
+  color: black;
+  border-color: black;
+}
+
+.header__title {
+  font-size: 28px;
+  margin: 0;
+  color: white;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Noto Serif", serif;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 18px;
+  color: inherit;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.header__link_active::after {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: -5px;
+  width: 120%;
+  height: 3px;
+  background-color: currentColor;
+}
+
+.header__user-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 8px;
+  background: transparent;
+  outline: 1px solid #fff;
+
+  border-radius: 50px;
+  cursor: pointer;
+  color: inherit;
+  padding: 12px 12px;
+
+  height: 48px;
+  margin-bottom: 4px;
+}
+
+.header__username {
+  font-size: 18px;
+  text-align: center;
+}
+
+.header__logout-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__user-button:hover {
+  opacity: 0.8;
+}
+
+.header__signup {
+  background: transparent;
+  border: 1px solid white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header__menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.header__button:hover,
+.header__link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 22px 40px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .header__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .header__link,
+  .header__signup,
+  .header__user-button {
+    display: none;
+  }
+
+  .header__menu-btn {
+    display: block;
+  }
+
+  .header {
+    padding: 16px;
+  }
+}
