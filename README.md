@@ -35,3 +35,7 @@ The front end interacts with the NewsExplorer API server and provides a clean, r
 ##### Project Pitch Video
 
 Check out this video: https://drive.google.com/file/d/1TBmqgeTZJjLHWh_70jJGjuJI9pMQ3hd_/view?usp=sharing , where I describe my project and some challenges I faced while building it.
+
+###### Link to Deployed Front-end
+
+check out my deployed front-end: https://castledd.github.io/news-explorer-frontend/
