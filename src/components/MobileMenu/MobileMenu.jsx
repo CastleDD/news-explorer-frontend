@@ -27,7 +27,6 @@ function MobileMenu({
         </div>
 
         <nav className="menu__nav">
-          {/* Home */}
           <Link
             to="/"
             className={`menu__link ${
@@ -38,7 +37,6 @@ function MobileMenu({
             Home
           </Link>
 
-          {/* Saved Articles */}
           {isLoggedIn && (
             <Link
               to="/saved-news"
@@ -51,7 +49,6 @@ function MobileMenu({
             </Link>
           )}
 
-          {/* Auth button */}
           {!isLoggedIn ? (
             <button className="menu__signin" onClick={onSignInClick}>
               Sign in

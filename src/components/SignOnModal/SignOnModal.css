@@ -17,6 +17,7 @@
 
 .modal__switch-link {
   color: rgb(31, 31, 231);
+  text-decoration: none;
 
   font-size: 18px;
   line-height: 24px;

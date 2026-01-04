@@ -12,7 +12,7 @@
 }
 @media (max-width: 500px) {
   .savedNews__container {
-    padding: 24px 20px 0px; /* reduce side padding so title fits */
+    padding: 24px 20px 0px;
   }
 }
 
@@ -30,7 +30,7 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 46px;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", "Noto Serif", serif;
   text-align: left;
   padding-bottom: 30px;
 }
@@ -43,6 +43,7 @@
 
 .savedNews__section {
   padding: 62px 102px;
+  background-color: #eaeae9;
 }
 
 .savedNews__list {

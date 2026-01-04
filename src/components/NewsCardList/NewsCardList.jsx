@@ -36,7 +36,7 @@ function NewsCardList({
 
       {visibleCount < articles.length && (
         <button onClick={showMore} className="newsCardList__showMore">
-          Show More
+          Show more
         </button>
       )}
     </section>

@@ -28,7 +28,7 @@
 }
 
 .preloader__title {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", "Noto Serif", serif;
   font-size: 26px;
   line-height: 30px;
   font-weight: 400;

@@ -131,8 +131,8 @@ function App() {
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
   return (
-    <div className="app">
-      <div className="app__content">
+    <div className="page">
+      <div className="page__content">
         <Header
           isHome={isHome}
           isLoggedIn={isLoggedIn}

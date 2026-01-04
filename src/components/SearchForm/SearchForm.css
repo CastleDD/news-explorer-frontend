@@ -42,6 +42,14 @@
   right: -1px;
 }
 
+.search__button:hover {
+  background-color: #347eff;
+}
+
+.search__button:active {
+  background-color: #2a65cc;
+}
+
 .search__error {
   color: white;
   font-size: 14px;
@@ -49,7 +57,7 @@
   top: 70px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
   .search__form {
     width: 100%;
   }
@@ -59,12 +67,12 @@
   }
 
   .search__input {
-    height: 62px;
+    height: 56px;
   }
 
   .search__button {
-    height: 62px;
-    margin-bottom: 50px;
+    height: 56px;
+    margin-bottom: 56px;
   }
 }
 

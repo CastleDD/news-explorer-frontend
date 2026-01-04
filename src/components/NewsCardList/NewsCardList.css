@@ -1,14 +1,17 @@
 .newsCardList {
   padding: 80px 104px;
+  background-color: #eaeae9;
 }
 
 .newsCardList__title {
   color: black;
   padding-bottom: 64px;
   text-align: left;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Roboto Slab", "Noto Serif", serif;
   line-height: 46px;
   font-weight: 400;
+  margin: 0px;
 }
 
 .newsCardList__grid {
@@ -16,7 +19,6 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
   box-sizing: border-box;
-
   overflow-x: hidden;
 }
 
@@ -36,7 +38,7 @@
 }
 
 .newsCardList__showMore:hover {
-  background-color: #e8e8e8;
+  background-color: #d9d9d7;
 }
 
 @media (min-width: 400px) and (max-width: 768px) {
@@ -48,6 +50,8 @@
   }
   .newsCardList__title {
     padding-bottom: 32px;
+    margin: 0px;
+    font-size: 30px;
   }
 }
 
@@ -63,6 +67,8 @@
 
   .newsCardList__title {
     padding-bottom: 58px;
+    font-size: 30px;
+    line-height: 34px;
   }
 
   .newsCardList__showMore {

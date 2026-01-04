@@ -1,4 +1,4 @@
-.app {
+.page {
   position: relative;
   min-height: 100vh;
 
@@ -6,12 +6,12 @@
   width: 100%;
   color: white;
   text-align: center;
-
+  font-family: "Roboto", Arial, sans-serif;
   background-attachment: fixed;
   margin: 0;
   z-index: 2;
 }
 
-.app__content {
+.page__content {
   margin: 0 auto;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-import logoutIconBlack from "../../images/logout.png";
-import logoutIcon from "../../images/logout-white.png";
+import logoutSaved from "../../images/logout.png";
+import logoutHome from "../../images/logout-white.png";
+import menuHome from "../../images/menuYt.svg";
+import menuSaved from "../../images/menuBlk.svg";
 
 function Header({
   isHome,
@@ -19,7 +21,8 @@ function Header({
   const userName = currentUser?.username || "";
 
   const isSaved = location.pathname === "/saved-news";
-  const icon = isHome ? logoutIcon : logoutIconBlack;
+  const icon = isHome ? logoutHome : logoutSaved;
+  const menu = isHome ? menuHome : menuSaved;
 
   return (
     <header className={`header ${isHome ? "header__home" : "header__default"}`}>
@@ -62,8 +65,13 @@ function Header({
           className="header__menu-btn"
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           onClick={isMenuOpen ? onCloseMenu : onOpenMenu}
+          type="button"
         >
-          {isMenuOpen ? "×" : "☰"}
+          {isMenuOpen ? (
+            <span className="Header__menu-close">×</span>
+          ) : (
+            <img src={menu} alt="Menu" className="header__menu" />
+          )}
         </button>
       </nav>
     </header>

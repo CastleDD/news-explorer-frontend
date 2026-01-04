@@ -19,7 +19,7 @@
 .header__default .header__link,
 .header__default .header__title,
 .header__default .header__user,
-.header__default button {
+.header__default {
   color: black;
   border-color: black;
 }
@@ -28,7 +28,8 @@
   font-size: 28px;
   margin: 0;
   color: white;
-  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Noto Serif", serif;
 }
 
 .header__nav {

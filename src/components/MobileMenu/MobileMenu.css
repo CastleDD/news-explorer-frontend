@@ -29,7 +29,7 @@
 .menu__title {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", "Noto Serif", serif;
   line-height: 24px;
 }
 
